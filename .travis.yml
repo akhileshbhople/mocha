@@ -6,6 +6,9 @@ stages:
   - test # all tests
 
 # defaults
+os: 
+  - linux-ppc64le
+  - linux
 language: node_js
 node_js: '10'
 # `nvm install` happens before the cache is restored, which means
